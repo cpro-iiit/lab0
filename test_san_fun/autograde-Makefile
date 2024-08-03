@@ -1,7 +1,0 @@
-all:
-	tar xvf autograde.tar
-	tar xvf hello.tar
-	(cd test_san_fun-handout; ./driver.sh)
-
-clean:
-	rm -rf *~ test_san_fun-handout

@@ -1,0 +1,27 @@
+---
+general:
+  name: l0
+  description: ''
+  display_name: "Lab 0"
+  handin_filename: l0-handin.tar
+  handin_directory: l0-handin
+  max_grace_days: 0
+  handout: l0-handout.tar
+  writeup: writeup/l0.html
+  max_submissions: -1
+  disable_handins: false
+  max_size: 2
+  category_name: Lab
+problems:
+- name: p1
+  description: ''
+  max_score: 100.0
+  optional: false
+- name: p2
+  description: ''
+  max_score: 100.0
+  optional: false
+autograder:
+  autograde_timeout: 180
+  autograde_image: autograding_image
+  release_score: true

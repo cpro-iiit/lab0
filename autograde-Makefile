@@ -1,0 +1,9 @@
+all:
+	tar xvf autograde.tar
+	tar xvf l0-handin.tar
+	cp autograde/driver.sh l0-handout/.
+	(cd l0-handout; sh driver.sh)
+
+clean:
+	rm -rf *~ autograde l0-handout
+
