@@ -1,0 +1,30 @@
+---
+general:
+  name: Lab-0
+  description: ''
+  display_name: Demo_Lab_01           ## display name **required** same as the folder name
+  handin_filename: handin.tar
+  handin_directory: handin
+  max_grace_days: 2
+  handout: Demo_Lab_01-handout.tar    ## handout file path
+  writeup: writeup/Demo_Lab_01.html   ## writeup file path
+  max_submissions: -1
+  disable_handins: false
+  max_size: 20                        ## max size of the handin file in MB, 20MB, can chage it
+  category_name: Lab                  ## category name, Lab, Homework, Project
+  github_submission_enabled: true
+problems:
+- description: problem 1              ## problem 1 description
+  max_score: 10.0                     ## max score of the problem
+  name: prob_1                        ## problem 1 name
+  optional: false
+  starred: false
+- description: problem 2              ## problem 2 description
+  max_score: 10.0                     ## max score of the problem
+  name: prob_2                        ## problem 2 name
+  optional: false
+  starred: false
+autograder:                           ## autograder configuration, no need to change
+  autograde_timeout: 180
+  autograde_image: autograding_image
+  release_score: true
