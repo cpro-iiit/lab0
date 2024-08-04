@@ -12,3 +12,7 @@ This is a minimal template for autolab assesments having multiple problems. TAs 
 9. `autograde-Makefile`: Student handins will be graded using this Makefile. The system will copy the `handin.tar` that student uploads and `autograde.tar` that was created by Makefile in 8, into a folder along with this file renamed as `Makefile`. Then it runs make. The last line of the output of this make command is a json that will be used to populate the scores for each of the problems. 
 
 In all the files, identifiers like `l0` needs to be appropriately changed. Once some filenames are changed, the Makefiles refering to them also needs to be appropriately changed. Once you are done making changes and testing things, run `make clean`, go one level up in directory and use `tar cvf l0.tar lab0` to make a tar file which can be upoaded at Install Assesment, option 3 in the autolab website (pingala.iiit.ac.in).
+
+
+Please create some assessments, install them in autolab and test it as a student with directions provided here (https://cpro-iiit.github.io/docs/course_material/labs/0/).
+
