@@ -20,12 +20,12 @@ handout:
 	mkdir $(LAB)-handout/p2
 	cp -p src/p2/main.c-handout $(LAB)-handout/p2/main.c
 	cp -p src/p2/Makefile $(LAB)-handout/p2/Makefile 
-        # copy handout driver with public test cases
+    # copy handout driver with public test cases
 	cp -p src/driver-handout.sh $(LAB)-handout/driver.sh
 
 autograde:
 	(rm -rf autograde; mkdir autograde)
-        # copy autograding driver with privarte test cases 
+    # copy autograding driver with privarte test cases 
 	cp src/driver.sh autograde/.
 
 handout-tarfile: handout
