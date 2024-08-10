@@ -50,6 +50,6 @@ else
 fi
 
 ##### Outputing Scores
-echo "{\"scores\": {\"p1\": $score_1, \"p2\": $score_2}}"
+echo "{\"scores\": {\"p1\": $score_1, \"p2\": $score_2}, "scoreboard": [$score_1, $score_2, $score_1+$score_2] }"
 exit
 
